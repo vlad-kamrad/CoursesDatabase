@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Posts]
+(
+	[Id] INT NOT NULL CONSTRAINT PK_Posts PRIMARY KEY IDENTITY(1,1), 
+	[Author] NVARCHAR(50) NOT NULL,
+    [Title] NVARCHAR(50) NOT NULL, 
+    [Content] NVARCHAR(500) NOT NULL, 
+    [DateCreate] DATE NOT NULL
+)
