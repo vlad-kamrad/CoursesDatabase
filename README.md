@@ -1,2 +1,1 @@
-# Приатаченный паблиш скрипт:
-# CoursesDatabase.publish.sql
+Basics PLpgSQL
